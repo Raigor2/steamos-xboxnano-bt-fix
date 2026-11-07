@@ -56,6 +56,8 @@ No. The script only writes to `/etc` and `/var`, which are writable on SteamOS. 
 | `/var/lib/xbox-bt-fix/apply.sh` | The idempotent helper the service runs |
 | `/var/lib/xbox-bt-fix/main.conf.original` | One-time backup of your original config |
 
+**Note**
+Firmware note: Tested on an Xbox Nano Controller with the latest firmware, updated through the Xbox Accessories app on Windows 11 (showing “Up to date” as of November 2026). If your controller has trouble connecting, update it first: connect it to a Windows PC or Xbox, open Xbox Accessories, and check that it shows “Up to date.” Then apply this fix and re-pair it with your Deck.
 ## License
 
 MIT. See [LICENSE](LICENSE).
